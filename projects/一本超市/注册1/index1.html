@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>一本超市注册</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/stylesheet1.css">
+    <link rel="stylesheet" href="js/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+    <script src="js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="input-group">
+        <input type="text"  >
+        <button type="button">搜索</button>
+        </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" class="btn  " data-toggle="modal" data-target="#myModal">登陆</a></li>
+        <li><a href="../注册1/index1.html">注册</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="modal-header" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="typeleft">
+                        <h4 class="modal-title" id="myModalLabel">一本超市账号登陆</h4>
+                        <input type="text" id="username">
+                        <input type="text" id="password">
+                        <input type="checkbox" id="checkbox"><b>下次自动登陆</b>
+                        <div id="logon"><a href="../主页/index.html" style="color: white;" >登录</a></div><br>
+                        <a href="" id="lefta">注册新账号</a>
+                        <a href="" id="righta">忘记密码？</a>
+                    </div>
+                    <div class="typeright">
+                        <h4 id="h4">使用社交账号登陆</h4>
+                        <img src="img/5.png" alt="扫描二维码登陆">
+                        <div id="count">
+                            <a id="typea" href="">微博</a>|<a id="typeb" href="">QQ</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+<div class="container">
+<ul class="nav nav-pills" style="margin-bottom: 20px;">
+  <li role="presentation"><a href="../主页/index.html">主页</a></li>
+  <li role="presentation"><a href="../详细/index1.html">试用</a></li>
+  <li role="presentation"><a href="../详细2/index1.html">购买</a></li>
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      获取更多 <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+        <li role="presentation"  class="active"><a href="../注册1/index1.html">注册</a></li>
+    </ul>
+  </li>
+</ul>
+</div>
+
+<div class="container">
+<section>
+    <h2>注册一本</h2>
+    <div class="pho">
+    <div class="aside" style="margin-left: 0px;">
+        <img src="img/1.png" alt="分享商品">
+        <p>验证手机号</p>
+    </div>
+    <div class="aside">
+        <img src="img/2.png" alt="分享商品">
+
+    </div>
+    <div class="aside">
+        <img src="img/3.png" alt="分享商品">
+        <p>设置密码</p>
+    </div>
+
+<form method="post" action="">
+    <div class="int">
+        <label for="username">用户名:</label>
+        <input type="text" id="username2" class="required" style="border: 1px solid black;" />
+    </div>
+    <div class="int">
+        <label for="email">邮箱:</label>
+        <input type="text" id="email" class="required" style="border: 1px solid black;" />
+    </div>
+            <div id="buy">
+                <a href="../注册2/index1.html" style="color:white;">下一步</a>
+            </div>
+</form>
+    </div>
+
+</section>
+</div>
+
+<hr style="clear:both;">
+<div class="container">
+<footer >
+    <ul class="nav"  >
+        <li><img src="img/logo.gif" class="img-responsive" id="footer-img"></li>
+    </ul>
+    <ul class="nav"  >
+        <li><a href=""><b>免费试用</b></a></li>
+        <li><a href="">试用流程</a></li>
+        <li><a href="">提高利用</a></li>
+    </ul>
+    <ul class="nav"  >
+        <li><a href=""><b>关于一本</b></a></li>
+        <li><a href="">发展历程</a></li>
+        <li><a href="">合作伙伴</a></li>
+        <li><a href="">加入一本</a></li>
+    </ul>
+    <ul class="nav"  >
+        <li><a href=""><b>商务合作</b></a></li>
+        <li><a href="">产品试用</a></li>
+        <li><a href="">营销服务</a></li>
+        <li><a href="">联系我们</a></li>
+    </ul>
+    <ul class="nav"  >
+        <li><a href=""><b>购买攻略</b></a></li>
+        <li><a href="">美亚海淘</a></li>
+        <li><a href="">日亚海淘</a></li>
+        <li><a href="">海淘转运</a></li>
+    </ul>
+    <ul class="nav" >
+        <img src="img/5.png" alt=""><br>
+        <span>扫描下载一本手机客户端</span>
+    </ul>
+    <ul class="nav" >
+        <img src="img/5.png" alt=""><br>
+        <span>一本微信公众号:yiben</span>
+    </ul>
+    <p>Copyright 2017 www.yiben.com 一本超市 版权所有 陕西ICP备11042603号</p>
+</footer>
+<script type="text/javascript" src="js/index1.js"></script>
+</body>
+</html>

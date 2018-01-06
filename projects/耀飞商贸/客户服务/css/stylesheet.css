@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    background-color: aliceblue;
+}
+header{
+    width: 100%;
+    height: 120px;
+    font-weight: bold;
+    background: aliceblue url("../img/header.gif" ) no-repeat 20% 70%;
+    border: 1px solid white;
+    border-bottom: 5px solid blue;
+}
+.footer {
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    background-color: black;
+}
+ul.nav {
+    position: relative;
+    margin-top: 70px ;
+    margin-left: 40%;
+    padding: 0px;
+    list-style: none;
+    overflow: hidden;
+    width: 100%
+}
+ul.nav li {
+    float: left;
+}
+ul.nav a {
+    display: block;
+    margin: 0;
+    padding: 0 2em;
+    line-height:2.1em;
+    text-decoration: none;
+}
+ul.nav a:link {
+    color: black;
+}
+ul.nav a:hover {
+    background: darkblue ;
+    border: blue 1px solid;
+    border-radius: 10px;
+    color: white;
+}
+#img0{
+    margin: 0 auto;
+}
+.main {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+.top {
+    width: 290px;
+    float: left;
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    height:150px;
+
+}
+.top a {
+    float: left;
+    color: black;
+    text-decoration: none;
+    padding:20px 35px 0px 35px;
+}
+#h1 {
+    background-color: blue;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+#h2 {
+    background-color: green;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+#h3 {
+    background-color: orange;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+#h4 {
+    background-color: hotpink;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+#h22 {
+    margin-top: 40px;
+}
+.in {
+    width: 396.6px;
+    float: left;
+    background-color: white;
+    height:150px;
+}
+.in img {
+    float: left;
+    margin: 20px 10px 20px 20px;
+}
+.in p {
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.in a {
+    margin: 0;
+    padding: 0;
+    border: 1px solid grey;
+    text-decoration: none;
+    color: red;
+}

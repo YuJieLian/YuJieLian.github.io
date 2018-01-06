@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+</head>
+
+<body data-page="ui-index">
+    <canvas id="game"></canvas>
+    <!--游戏首页-->
+    <div class="ui-index ui-panel">
+        <h1>飞机大作战</h1>
+        <div class="btn-group">
+            <button type="button" class="start btn">开始游戏</button>
+            <button type="button" class="setting btn">游戏设置</button>
+            <button type="button" class="rule btn">游戏说明</button>
+        </div>
+    </div>
+    <!--游戏说明-->
+    <div class="ui-rule ui-panel">
+        <h2>游戏说明</h2>
+        <p>通过手指移动飞机，躲避敌人，通过子弹射击敌人得分 ，游戏无限时，消灭小型飞机得100分，消灭大型飞机得1000分。
+        </p>
+        <button type="button" class="clear">我明白了</button>
+    </div>
+    <!--游戏设置-->
+    <div class="ui-setting ui-panel">
+        <h2>游戏设置</h2>
+        <div class="btn-group">
+            <ul class="setting-group">
+                <li class="setting">
+                    <span>音乐设置</span>
+                    <select name="sound" id="" class="sound">
+                        <option selected="selected" value="0">开启音乐</option>
+                        <option value="1">关闭音乐</option>
+                    </select>
+                </li>
+                <li class="setting">
+                    <span>背景设置</span>
+                    <select name="bg" id="" class="bg">
+                        <option value="0">钢铁森林</option>
+                        <option value="1">天空之城</option>
+                        <option selected="selected" value="2">原始森林</option>
+                        <option value="3">熔岩基地</option>
+                    </select>
+                </li>
+                <li class="setting">
+                    <span>战机设置</span>
+                    <select name="plane" id="" class="plane">
+                        <option selected="selected" value="0">蓝色战机</option>
+                        <option value="1">粉色战机</option>
+                    </select>
+                </li>
+            </ul>
+            <button type="button" class="confirm">确认设置</button>
+        </div>
+    </div>
+    <div class="ui-end ui-panel">
+        <button type="button" class="new-game btn">再来一局</button>
+        <button type="button" class="return-index btn">返回主界面</button>
+    </div>
+    <script type="text/javascript" src="js/config.js"></script>
+    <script type="text/javascript" src="js/resource.js"></script>
+    <script type="text/javascript" src="js/element.js"></script>
+    <script type="text/javascript" src="js/emeny.js"></script>
+    <script type="text/javascript" src="js/bullet.js"></script>
+    <script type="text/javascript" src="js/plane.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

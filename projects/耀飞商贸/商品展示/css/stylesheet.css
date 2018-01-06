@@ -1,0 +1,245 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    background-color: aliceblue;
+}
+header{
+    width: 100%;
+    height: 120px;
+    font-weight: bold;
+    background:  aliceblue url("../img/header.gif" ) no-repeat 20% 70%;
+    border: 1px solid white;
+    border-bottom: 5px solid blue;
+}
+ul.nav {
+    position: relative;
+    margin-top: 70px ;
+    margin-left: 40%;
+    padding: 0px;
+    list-style: none;
+    overflow: hidden;
+    width: 100%
+}
+ul.nav li {
+    float: left;
+}
+ul.nav a {
+    display: block;
+    margin: 0;
+    padding: 0 2em;
+    line-height:2.1em;
+    text-decoration: none;
+}
+ul.nav a:link {
+    color: black;
+}
+ul.nav a:hover {
+    background: darkblue ;
+    border: blue 1px solid;
+    border-radius: 10px;
+    color: white;
+}
+#img0{
+    margin: 0 auto;
+}
+.photo2 {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1030px;
+    text-align: left;
+}
+h2 {
+    margin-top: 1em;
+    margin-bottom: 0;
+    margin-left: 1em;
+    font-weight: bold;
+    padding: 0px;
+}
+.Go {
+    margin-left: 1.5em;
+}
+.span {
+    margin-top: 1em;
+    margin-left: 1.5em;
+    font-weight: bold;
+    padding: 0px;
+}
+#show1 {
+    float: left;
+    width: 20%;
+    background: url("../img/show01.gif" ) no-repeat;
+    height: 155px;
+    width: 255px;
+    color: forestgreen;
+}
+#show2 {
+    float: left;
+    width: 20%;
+    background: url("../img/show02.gif" ) no-repeat;
+    height: 155px;
+    width: 255px;
+    color: dodgerblue;
+}
+
+#show3 {
+    float: left;
+    width: 20%;
+    background: url("../img/show03.gif" ) no-repeat;
+    height: 155px;
+    width: 255px;
+    color: orangered;
+}
+#show4 {
+    float: left;
+    width: 20%;
+    background: url("../img/show04.gif" ) no-repeat;
+    height: 155px;
+    width: 255px;
+    color: red;
+}
+.photo3 {
+    margin: 0 auto;
+    margin-top: 2em;
+    overflow: hidden;
+    width: 1030px;
+    text-align: left;
+}
+#show11 {
+    float: left;
+    background: url("../img/show11.gif" ) no-repeat;
+    height: 155px;
+    width: 320px;
+    
+}
+#show12 {
+    float: left;
+    background: url("../img/show12.gif" ) no-repeat;
+    height: 155px;
+    width: 165px;
+    color: forestgreen;
+}
+#show13 {
+    float: left;
+    background: url("../img/show13.gif" ) no-repeat;
+    height: 155px;
+    width: 165px;
+    color: darkolivegreen;
+}
+#show14 {
+    float: left;
+    background: url("../img/show14.gif" ) no-repeat;
+    height: 155px;
+    width: 165px;
+    color: purple;
+}
+#show15 {
+    float: left;
+    background: url("../img/show15.gif" ) no-repeat;
+    height: 155px;
+    width: 165px;
+    color: blue;
+}
+#show16 {
+    float: left;
+    width: 320px;
+    background: url("../img/show16.gif" ) no-repeat;
+    height: 155px;
+
+}
+#show17 {
+    float: left;
+    width: 165px;
+    background: url("../img/show17.gif" ) no-repeat;
+    height: 155px;
+    color: darkorange;
+}
+#show18 {
+    float: left;
+    width: 165px;
+    background: url("../img/show18.gif" ) no-repeat;
+    height: 155px;
+    color: red;
+}
+#show19 {
+    float: left;
+    width: 165px;
+    background: url("../img/show19.gif" ) no-repeat;
+    height: 155px;
+    color: green;
+}
+#show20 {
+    float: left;
+    width: 165px;
+    background: url("../img/show20.gif" ) no-repeat;
+    height: 155px;
+    color: deeppink;
+}
+h3 {
+    margin: 0px;
+    margin-left: 15px;
+    font-weight: bold;
+    padding: 0px;
+}
+.span2 {
+    margin: 0px;
+    margin-left: 15px;
+    font-weight: bold;
+    padding: 0px;
+    color: black;
+}
+.left {
+    padding: 0;
+    margin-right: 10px;
+    width: 500px;
+    float: left;
+    z-index: 2;
+}
+.right {
+    padding: 0;
+    margin: 0px;
+    width: 495px;
+    float: right;
+    z-index: 2;
+}
+#h11 {
+    width:495px ;
+    height: 50px;
+    float: left;
+    z-index: 6;
+    color: white;
+    line-height: 50px;
+    background-color: blue;
+}
+#h11 h1 {
+    display: inline;
+    margin-left: 20px;
+}
+#divlast {
+    width: 490px;
+    height: 50px;
+    line-height: 50px;
+    display: inline;
+    float: left;
+    z-index: 5;
+    color: white;
+    background-color: blue;
+
+}
+#h12 {
+    display: inline;
+    margin-left: 20px;
+}
+#divlast a {
+    float: right;
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+}
+.footer {
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    background-color: black;
+}

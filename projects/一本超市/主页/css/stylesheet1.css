@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 120px;
+    background-color: white !important;
+    border: none !important;  
+    margin-bottom: 30px;
+}
+
+.collapse {
+    overflow: hidden;
+    background: url("../img/logo.gif") no-repeat 0% 50% !important;
+}
+
+.navbar-header {
+        background: url("../img/logo.gif") no-repeat 0% 50% !important;
+}
+
+
+.input-group {
+    display: inline;
+    width: 30%;
+    height: 40px;
+    margin-left: 30%;
+    margin-top: 20px;
+    border: 1px solid block;
+}
+
+.input-group input {
+
+    float: left;
+    height: 30px;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.input-group button {
+    float: left;
+    background-color: green;
+    height: 30px;
+    width: 20%;
+    border: none;
+    margin-top: 30px;
+}
+
+.modal-body {
+    width: 800px;
+    height:300px;
+}
+
+.modal-header {
+    border: none !important;
+}
+
+.modal-header button {
+    display: inline;
+    background: white;
+    float: right;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.typeleft {
+    float: left;
+}
+.typeright {
+    float: left;
+}
+#checkbox {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.typeright img {
+    margin-left: 30px;
+    display: block;
+}
+
+#username {
+    background: url("../img/登录界面_0000_图层-00.png") no-repeat 0% 50%;
+    display: block;
+    height: 40px;
+    width: 300px;
+    margin: 10px 30px;
+    padding-left:90px;
+    border: 1px solid grey;
+}
+
+#password {
+    background: url("../img/登录界面_0000_图层-01.png") no-repeat 0% 50%;
+    display: block;
+    height: 40px;
+    width: 300px;
+    margin: 10px 30px;
+    padding-left:90px;
+    border: 1px solid grey;
+}
+
+#logon {
+    float: right;
+    display: inline;
+    overflow: hidden;
+    width: 150px;
+    line-height: 40px;
+    background: green;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+#myModalLabel {
+    margin-left: 30px;
+}
+
+#h4 {
+    margin-left: 20px;
+}
+
+#count {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#typea {
+    background: url("../img/登录界面_0000_图层-03.png") no-repeat 0% 50%;
+    padding-left:30px;
+    margin-right: 10px;
+}
+
+#typeb {
+    background: url("../img/登录界面_0000_图层-04.png") no-repeat 0% 50%;
+    padding-left:30px;
+    margin-left: 10px;
+}
+
+#lefta {
+    float: left;
+    margin-left: 30px;
+    margin-top:20px;
+    margin-bottom: 30px;
+    color: grey;
+}
+
+#righta {
+    float: right;
+    margin-right: 30px;
+    margin-top:20px;
+    margin-bottom: 30px;
+    color: grey;
+}
+
+#back {
+    background-color: black;
+}
+
+
+
+.imgz{width: 200px;height: 50px;position: relative; overflow: hidden; }
+
+.top1{position: absolute;}
+
+.top1 p{margin-top: 0px;}
+
+.top2{position: absolute;}
+
+.top2 p{margin-top: 0px;}
+
+.top3{position: absolute;}
+
+.top3 p{margin-top: 0px;}
+
+.top4{position: absolute;}
+
+.top4 p{margin-top: 0px;}
+
+
+
+footer {
+    height: 200px;
+    margin: 0 auto;
+    color: black;
+}
+
+#footer-img {
+    margin: 0px;
+}
+
+footer ul.nav {
+    float: left;
+    margin-left: 45px;
+}
+
+footer a {
+    color: black;
+}
+
+footer p {
+    clear: both;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

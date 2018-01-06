@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>注册列表</title>
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+</head>
+<body>
+<header>
+    <ul class="nav">
+        <li><a href="../耀飞商贸/耀飞商贸.html">首页</a></li>
+        <li><a href="../商品展示/商品展示.html">商品展示</a></li>
+        <li><a href="../新闻动态/新闻动态.html">新闻动态</a></li>
+        <li><a href="../客户服务/客户服务.html">客户服务</a></li>
+        <li><a href="注册列表.html">后台管理</a></li>
+    </ul>
+</header>
+    <marquee direction="right">
+    <h1 class="welcomesain">欢迎注册耀飞商贸！</h1>
+    <h1 class="welcomesain">欢迎注册耀飞商贸！</h1>
+    <h1 class="welcomesain">欢迎注册耀飞商贸！</h1>
+    <h1 class="welcomesain">欢迎注册耀飞商贸！</h1>
+    <h1 class="welcomesain">欢迎注册耀飞商贸！</h1>
+    <h1 class="welcomesain">欢迎注册耀飞商贸！</h1>
+    </marquee>
+<fieldset>
+    <legend>注册账号</legend>
+        <table>
+            <tr>
+                <td>用户名 ：</td>
+                <td class="left"><input type="text" id="nameu" onblur="nameuse"><spsn>必须以字母开头，且不能为汉字</spsn></td>
+            </tr>
+            <tr>
+                <td>昵&nbsp;&nbsp;称：</td>
+                <td class="left"><input type="text">请输入昵称来表示你的身份</td>
+            </tr>
+            <tr>
+                <td>密&nbsp;&nbsp;码：</td>
+                <td class="left"><input type="password" id="pwd" onfocus="pwdFocus()" onblur="pwdBulr()"><span id="pwdId">请输入密码</span></td>
+            </tr>
+            <tr>
+                <td>重复密码：</td>
+                <td class="left"><input type="password" id="repwd" onblur="repwdBulr()"><span id="repwdId">再次输入密码</span></td>
+            </tr>
+            <tr>
+                <td>手机号 ：</td>
+                <td class="left"><input type="text" id="tel" onblur="telBulr()"><span id="telId">请输入手机号</span></td>
+            </tr>
+            <tr>
+                <td>邮&nbsp;&nbsp;箱：</td>
+                <td class="left"><input type="text">
+                    @<select name="mail" id="mailaddress">
+                        <option value="qq.com">qq.com</option>
+                        <option value="163.com">163.com</option>
+                        <option value="yeah.net">yeah.net</option>
+                        <option value="hotmail.com" selected>hotmail.com</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>描述信息：</td>
+                <td class="left"><textarea rows="3" cols="19"></textarea><span>不能超过50个汉</span>字</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="注册" class="listButton">
+                    已经拥有账号，直接<a href="登录列表.html">登录</a></td>
+            </tr>
+        </table>
+</fieldset>
+<footer class="footer">
+    <h2 >耀飞商贸</h2>
+    <p>联系地址：x西安市雁塔区xxxxxxx 联系方式：029-000-0000</p>
+    <p>CopyrightC2005-2017 All rights reserved.京ICP备810000000号-0</p>
+    <img src="img/foter1.gif" alt="show">
+    <img src="img/foter2.gif" alt="show">
+    <img src="img/foter3.gif" alt="show">
+    <img src="img/foter4.gif" alt="show">
+</footer>
+<script language="javascript" type="text/javascript" src="js/sever.js"></script>
+</body>
+</html>

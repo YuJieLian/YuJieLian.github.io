@@ -1,0 +1,267 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>小佩Petkit宠物智能喂食器</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/stylesheet1.css">
+    <link rel="stylesheet" href="js/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+    <script src="js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="input-group">
+        <input type="text"  >
+        <button type="button">搜索</button>
+        </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" class="btn  " data-toggle="modal" data-target="#myModal">登陆</a></li>
+        <li><a href="../注册1/index1.html">注册</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="modal-header" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="typeleft">
+                        <h4 class="modal-title" id="myModalLabel">一本超市账号登陆</h4>
+                        <input type="text" id="username">
+                        <input type="text" id="password">
+                        <input type="checkbox" id="checkbox"><b>下次自动登陆</b>
+                        <div id="logon"><a href="../主页/index.html" style="color: white;" >登录</a></div><br>
+                        <a href="" id="lefta">注册新账号</a>
+                        <a href="" id="righta">忘记密码？</a>
+                    </div>
+                    <div class="typeright">
+                        <h4 id="h4">使用社交账号登陆</h4>
+                        <img src="img/5.png" alt="扫描二维码登陆">
+                        <div id="count">
+                            <a id="typea" href="">微博</a>|<a id="typeb" href="">QQ</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+<div class="container">
+<ul class="nav nav-pills" style="margin-bottom: 20px;">
+  <li role="presentation"><a href="../主页/index.html">主页</a></li>
+  <li role="presentation" class="active"><a href="../详细/index1.html">试用</a></li>
+  <li role="presentation"><a href="../详细2/index1.html">购买</a></li>
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      获取更多 <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+        <li role="presentation"><a href="../注册1/index1.html">注册</a></li>
+    </ul>
+  </li>
+</ul>
+</div>
+
+<div id="header-photo">
+<div class="container" id="header-p">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="img/1.jpg" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="item">
+                <img src="img/2.jpg" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="item">
+                <img src="img/3.jpg" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="item">
+                <img src="img/4.jpg" class="img-responsive" alt="Responsive image">
+            </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="right">
+        <h1>小佩Petkit宠物智能喂食器</h1>
+        <p style="text-align: center">App远程操控，定时定量喂食；双重锁鲜，防止宠粮氧化 </p>
+        <div class="right1">
+            <p>APP专享</p>
+            <h2>￥548.9</h2>
+            <p>剩余15台/共20台</p>
+        </div>
+        <div class="right2">
+            <p>免费试用</p>
+            <h2>11人</h2>
+            <p>共1台</p>
+        </div>
+        <p style="text-align: center; clear: both;font-size: 20px;margin: 3em">截止时间：2天8小时59分钟</p>
+    </div>
+</div>
+</div>
+
+
+<div class="chance">
+<div class="container">
+        <b><h2>试用<br>流程</h2></b>
+
+    <div id="bp1">
+        <p>开放申请</p>
+        </div>
+    <div id="bp2">
+        <p>名单公布</p>
+        </div>
+    <div id="bp3">
+        <p>产品试用</p>
+        </div>
+    <div id="bp4">
+        <p>提交反馈</p>
+        </div>
+    <div id="bp5">
+        <p>活动结束</p>
+        </div>
+</div>
+</div>
+
+<div class="container">
+    <section>
+        <h2>产品介绍</h2>
+        <img src="img/21.jpg" class="img-responsive" alt="Responsive image">
+        <img src="img/22.jpg" class="img-responsive" alt="Responsive image">
+        <img src="img/23.jpg" class="img-responsive" alt="Responsive image">
+        <img src="img/24.jpg" class="img-responsive" alt="Responsive image">
+        <img src="img/25.jpg" class="img-responsive" alt="Responsive image">
+        <img src="img/26.jpg" class="img-responsive" alt="Responsive image">
+        <img src="img/27.jpg" class="img-responsive" alt="Responsive image">
+        <img src="img/28.jpg" class="img-responsive" alt="Responsive image">
+        <img src="img/29.jpg" class="img-responsive" alt="Responsive image">
+    </section>
+    <aside>
+        <div class="aside" >
+            <h4>体验师专享</h4>
+            <span>限额1台</span><br>
+            <div id="pho">
+            <h2>11</h2>
+            <p>申请人数</p>
+            </div>
+            <div id="pho2">
+            <b>2天7时25分30秒</b>
+            <span >申请截止</span></div>
+            <strong>查看试用细则</strong>
+            <div class="butt"><a href="">立即申请</a></div>
+        </div>
+ <div class="aside">
+            <h4>6折试用</h4>
+            <span>余28台/共30台</span><br>
+            <h2>￥598.8</h2><div class="pl">
+            <p>
+                1.本次试用产品为小佩Petkit宠物智能喂食器；<br>
+                2.限量30台，将根据厂商量产情况尽快安排发货；<br>
+                3.上传真实体验感受、分享朋友圈，押金全额返还；<br>
+                4.安心售后、正品保障，极果专属VIP服务；<br>
+                5.折扣试用商品非质量问题，不接受退换货。
+            </p></div><br>
+            <strong>查看试用细则</strong>
+     <div class="butt"><a href="">立即试用</a></div>
+        </div>
+      <div class="aside">
+            <h4>App专享</h4>
+            <span>余14台/共20台</span><br>
+            <h2>￥548.9</h2><div class="pl">
+            <p>
+                1.本次试用产品为小佩Petkit宠物智能喂食器；<br>
+                2.下载极果App，提前抢5.5折试用，限量20台，将根据厂商量产情况尽快安排发货；<br>
+                3.上传真实体验感受、分享朋友圈，押金全额返还；<br>
+                4.安心售后、正品保障，极果专属VIP服务；<br>
+                5.折扣试用商品非质量问题，不接受退换货。
+            </p></div>
+            <strong>查看试用细则</strong>
+          <hr>
+            <img src="img/5.png" class="img-responsive" alt="Responsive image">
+            <p>扫码APP参与此活动</p>
+        </div>
+        <div class="aside">
+            <h4>购买</h4>
+            <span>无限额</span><br>
+            <h2>￥998</h2><br>
+            <div class="pl"><p>小佩Petkit宠物智能喂食器正在京东热卖中，喜欢的小伙伴快去看看吧～</p></div>
+            <div class="butt"><a href="">购买</a></div>
+        </div>
+    </aside>
+</div>
+
+<hr style="clear:both;">
+<div class="container">
+<footer >
+    <ul class="nav"  >
+        <li><img src="img/logo.gif" class="img-responsive" id="footer-img"></li>
+    </ul>
+    <ul class="nav"  >
+        <li><a href=""><b>免费试用</b></a></li>
+        <li><a href="">试用流程</a></li>
+        <li><a href="">提高利用</a></li>
+    </ul>
+    <ul class="nav"  >
+        <li><a href=""><b>关于一本</b></a></li>
+        <li><a href="">发展历程</a></li>
+        <li><a href="">合作伙伴</a></li>
+        <li><a href="">加入一本</a></li>
+    </ul>
+    <ul class="nav"  >
+        <li><a href=""><b>商务合作</b></a></li>
+        <li><a href="">产品试用</a></li>
+        <li><a href="">营销服务</a></li>
+        <li><a href="">联系我们</a></li>
+    </ul>
+    <ul class="nav"  >
+        <li><a href=""><b>购买攻略</b></a></li>
+        <li><a href="">美亚海淘</a></li>
+        <li><a href="">日亚海淘</a></li>
+        <li><a href="">海淘转运</a></li>
+    </ul>
+    <ul class="nav" >
+        <img src="img/5.png" alt=""><br>
+        <span>扫描下载一本手机客户端</span>
+    </ul>
+    <ul class="nav" >
+        <img src="img/5.png" alt=""><br>
+        <span>一本微信公众号:yiben</span>
+    </ul>
+    <p>Copyright 2017 www.yiben.com 一本超市 版权所有 陕西ICP备11042603号</p>
+</footer>
+<script type="text/javascript" src="js/index1.js"></script>
+</body>
+</html>
+
+
